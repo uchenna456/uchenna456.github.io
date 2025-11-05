@@ -1,0 +1,58 @@
+
+
+
+#heading1{
+    color: green;
+    background-color: aquamarine;
+
+}
+.text-pink{
+    color: rgb(232, 142, 157);
+}
+
+.text-background-yellow{
+    background-color: yellow;
+}
+
+body {
+ background-image: url("../IMG/sample.jpeg");
+ background-repeat: no-repeat;
+ background-position: right top;
+ background-attachment: fixed;
+ color: red;
+
+}
+
+h1{
+    font-size: 3.8rem;
+    font-style: italic;
+    font-weight: 900;
+}
+:root {
+    --primary-red: @#dc3545;
+    --just-red: rgb(255, 0, 0);
+}
+a:hover{
+    color:rgb(85, 42, 165);
+    background-color:green;
+}
+a{
+    color: rgba(255, 0, 187, 0.118); 
+    text-decoration: none;
+    background-color: yellow;
+    padding: 20px 10px 20px 10px;
+    margin-left: 50px;
+}
+.text-para{
+    font-size: 1.8rem;
+    text-align: justify;
+    text-align-last: right;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-transform: uppercase;
+
+}
+@media (max-width: 576px) {
+    body {background-color: lightblue;
+    }
+}
